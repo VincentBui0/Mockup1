@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.NavBar {
+    display: flex;
+    font-family: Open Sans,sans-serif;
+    gap: 16px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 16px;
+    position: relative;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.OMGSaleContent {
+    border-radius: 16px;
+    min-width: 768.1px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Xbox {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.XboxImage {
+    height: 200px;
+}
+
+.Playstation {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.PS5Image {
+    height: 150px;
+}
+
+.Nintendo Switch {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+    color: #333;
+}
+
+.product p {
+    color: #555;
+}
+
+.product button {
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

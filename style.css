@@ -1,13 +1,12 @@
-
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    padding: 100px;
     background-color: #f0f0f0;
 }
 
 .NavBar {
     display: flex;
+    font-size: 24px;
     font-family: Open Sans,sans-serif;
     gap: 16px;
     height: 50px;
@@ -21,48 +20,120 @@ header {
     background-color: #333;
     color: white;
     padding: 10px;
-    text-align: center;
+    text-align: flex;
 }
 
-.OMGSaleContent {
-    border-radius: 16px;
-    min-width: 768.1px;
+.OMGSale {
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+.OMGSale img {
+    height: 350px;
+    width: 400px;
+}
+
+.PokemonDay {
+    display: flex;
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.PokemonDay img {
+    height: 350px;
+    width: 400px;
+}
+
+.ShopTopConsoles {
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.ShopTopConsoles img {
+    height: 350px;
+    width: 400px;
+}
+
+.BrowseByCategory {
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.BrowseByCategory img {
+    height: 350px;
+    width: 400px;
+}
+
+.TopBrands {
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.TopBrands img {
+    height: 350px;
+    width: 400px;
+}
+
+.Collectibles{
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
+    margin: 10px;
+}
+
+.Collectibles img {
+    height: 350px;
+    width: 400px;
 }
 
 main {
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .Xbox {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 30px;
+    border: 10px solid #ddd;
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
     margin: 10px;
     text-align: center;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} 
 
-.XboxImage {
-    height: 200px;
+.XboxImage{
+    height: 350px;
+    width: 400px;
 }
 
 .Playstation {
     border: 1px solid #ccc;
-    padding: 15px;
+    border-radius: 30px;
+    padding: 100px;
+    width: 300px;
     margin: 10px;
     text-align: center;
-    width: 30px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.PS5Image {
-    height: 150px;
+.PS5Image{
+    height: 350px;
+    width: 550px;
 }
 
 .Nintendo Switch {
@@ -75,13 +146,6 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.product h2 {
-    color: #333;
-}
-
-.product p {
-    color: #555;
-}
 
 .product button {
     background-color: #333;
